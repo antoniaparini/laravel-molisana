@@ -1,7 +1,7 @@
-{{-- Default layout from main.blade.php --}}
+
 @extends('layouts.main')
 
-{{-- Specific contents for HOMEPAGE (Pasta Cards) --}}
+
 @section('content')
     @if (empty($lunghe) === false) 
         <section class="type-section container">
